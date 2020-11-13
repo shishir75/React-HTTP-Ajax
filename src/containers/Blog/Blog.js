@@ -24,7 +24,7 @@ class Blog extends Component {
                     };
                 });
                 this.setState({ posts: updatedPosts });
-                console.log(response);
+                // console.log(response);
             })
             .catch();
     }
